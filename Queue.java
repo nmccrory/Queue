@@ -1,6 +1,6 @@
 /**
  * Author: Nick McCrory
- * Date: 3/9/2016
+ * Date: 3/9/2017
  */
 
 public class Queue {
@@ -35,5 +35,12 @@ public class Queue {
 
     public int getCount() {
         return this.count;
+    }
+
+    public boolean isEmpty() {
+        if (this.count > 0) {
+            return false;
+        }
+        return true;
     }
 }
